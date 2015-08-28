@@ -26,9 +26,9 @@ Upon installation or loading, local-config automatically loads custom configurat
 Use these for any custom configuration that should only run for a specific machine, operating system or user:
 
 ```
-$OMF_CUSTOM/users/strongbad.fish
-$OMF_CUSTOM/hosts/lappy486.fish
-$OMF_CUSTOM/platforms/Linux.fish
+$OMF_CONFIG/users/strongbad.fish
+$OMF_CONFIG/hosts/lappy486.fish
+$OMF_CONFIG/platforms/Linux.fish
 ```
 
 

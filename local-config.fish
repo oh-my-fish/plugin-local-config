@@ -1,7 +1,7 @@
 function init -a path --on-event init_local-config
   # Load custom settings for current hostname
   set -l host (hostname | sed -E 's/(-[0-9]+)?(\.(local|home))?$//')
-  set -l host_specific_file $OMF_CUSTOM/hosts/$host.fish
+  set -l host_specific_file $OMF_CONFIG/hosts/$host.fish
   if test -f $host_specific_file
     source $host_specific_file
   else
@@ -11,7 +11,7 @@ function init -a path --on-event init_local-config
   end
 
   # Load custom settings for current user
-  set -l user_specific_file $OMF_CUSTOM/users/(whoami).fish
+  set -l user_specific_file $OMF_CONFIG/users/(whoami).fish
   if test -f $user_specific_file
     source $user_specific_file
   else
@@ -21,7 +21,7 @@ function init -a path --on-event init_local-config
   end
 
   # Load custom settings for current OS
-  set -l platform_specific_file $OMF_CUSTOM/platforms/(uname -s).fish
+  set -l platform_specific_file $OMF_CONFIG/platforms/(uname -s).fish
   if test -f $platform_specific_file
     source $platform_specific_file
   else
