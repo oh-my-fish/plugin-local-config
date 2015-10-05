@@ -5,6 +5,7 @@
 </div>
 <br>
 
+
 # local-config
 
 Local configuration plugin for [Oh My Fish][omf-link].
@@ -39,8 +40,7 @@ $OMF_CONFIG/platforms/Linux.fish
 
 [mit]:            http://opensource.org/licenses/MIT
 [author]:         http://github.com/bobthecow
-[contributors]:   https://github.com/oh-my-fish/pkg-local-config/graphs/contributors
+[contributors]:   https://github.com/oh-my-fish/plugin-local-config/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
-
