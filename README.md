@@ -32,6 +32,13 @@ $OMF_CONFIG/hosts/lappy486.fish
 $OMF_CONFIG/platforms/Linux.fish
 ```
 
+Additionally, you can add per-user, per-host and per-platform functions and completions:
+
+```
+$OMF_CONFIG/users/strongbad/functions/beleted.fish
+$OMF_CONFIG/hosts/lappy486/completions/beleted.fish
+```
+
 
 # License
 
